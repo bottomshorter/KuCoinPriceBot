@@ -3,14 +3,6 @@
   "version": "1.0.0",
   "description": "A telegram bot that can be pinged to return digital asset price data live from the KuCoin Developer API.",
   "main": "index.js",
-  "dependencies": {
-    "assert": "^2.0.0",
-    "axios": "^0.19.0",
-    "telegraf": "^3.32.0"
-  },
-  "devDependencies": {
-    "mocha": "^6.2.0"
-  },
   "scripts": {
     "dev": "next dev",
     "test": "mocha",
@@ -22,6 +14,14 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "axios": "^0.19.0",
+    "telegraf": "^3.32.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
   "bugs": {
     "url": "https://github.com/bottomshorter/KuCoinPriceBot/issues"
   },
